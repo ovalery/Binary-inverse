@@ -2,7 +2,7 @@
 
 def binary_inverse(data):
     
-    if data[0] == 0 and len(data) == 1:
+    if sum(data) == 0:
         return [0]
           
 # Перевод числа с основанием (-2) в число с основанием 10    
