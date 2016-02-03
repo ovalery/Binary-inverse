@@ -24,6 +24,6 @@ def binary_inverse(data):
         if X < 0:
             inv, X = inv + 1, X + 2
         binary.insert(0, X) 
-        binary.reverse()
+    binary.reverse()
                
     return binary
